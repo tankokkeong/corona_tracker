@@ -1,0 +1,130 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+html {
+	height: 100%;
+    width: 100%;
+}
+
+.loader {
+    border: 5px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 5px solid #3498db;
+    width: 5px;
+    height: 5px;
+    -webkit-animation: spin 2s linear infinite; /* Safari */
+    animation: spin 2s linear infinite;
+    padding: 10px;
+    margin: 0 auto;
+}
+  
+  /* Safari */
+@-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+}
+  
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+h1, h2 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	text-align: center;
+	padding-bottom: 20px;
+	font-size: 25px;
+}
+
+.title {
+    /* background: linear-gradient(to right, #feb47b, #ff7e5f); */
+    background-color:black;
+    padding: 20px;
+    color: white;
+}
+
+.subtitle {
+	padding: 20px;
+	font-size: 150%;
+}
+
+.footer {
+    font-family: 'Roboto', sans-serif;
+    font-size: 75%;
+    padding: 5px;
+}
+
+h4
+{
+    padding-top: 10px;
+    font-size: 85%;
+    color: gray;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+}
+
+.data-container
+{
+    /* border: 2px solid #feb47b; */
+    border: 2px solid black;
+    text-align: center;
+    width: 45%;
+    margin: 0 auto;
+}
+div {
+    padding: auto;
+}
+
+#display-time
+{
+    text-align: center;
+    font-size: 35px;
+    padding-bottom: 20px;
+}
+
+.disclaimer
+{
+    text-align: center;
+    color: red;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+@media screen and (min-width: 600px)
+{
+    h1
+    {
+        font-size: 35px;
+    }
+}
+
+
+@media screen and (min-width: 900px)
+{
+    div {
+        padding: 20px;
+    }
+
+    .stats-container {
+        text-align: center;
+        display: inline-block;
+    }
+    .location-container {
+        display: inline-block;
+    }
+    .data-container {
+        width: 40%;
+    }
+
+    h1{
+        font-size: 45px; 
+    }
+}

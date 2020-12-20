@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/corona.png" >
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+    <title>Malaysia Covid-19 tracker</title>
+</head>
+<body>
+    <h1 class="title">COVID-19 Tracker</h1>
+	<h2 class="subtitle">The latest statistics regarding the "Corona Virus".</h2>
+
+	<h1>Current time:</h1>
+	<div id="display-time"></div>
+	<div class="disclaimer">*This website will be updated right after 12:00:00</div>
+
+	<div class="data-container">
+		<div class="stats-container">
+			<h4>Cases</h4>
+			<h1 id="cases"><div class="loader"></div></h1>
+			<h4>Deaths</h4>
+			<h1 id="deaths"><div class="loader"></div></h1>
+			<h4>Percentage of Deaths</h4>
+			<h1 id="percent"><div class="loader"></div></h1>
+		</div>
+		<div class="location-container">
+			<h4>Country</h4>
+			<h1 id="country">Malaysia</h1>
+			<h4>Population</h4>
+			<h1 id="population"><div class="loader"></div></h1>
+			<h4>Last Updated</h4>
+			<h1 id="update"><div class="loader"></div></h1>
+		</div>
+	</div>
+	<h1 class="footer">Created by KennyTan / Information provided by <a href="https://systems.jhu.edu/research/public-health/ncov/">Johns Hopkins University</a></h1>
+</body>
+</html>
